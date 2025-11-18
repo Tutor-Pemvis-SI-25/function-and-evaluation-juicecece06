@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="the last"/>
+        <attribute name="authors" value="NITRO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-18 09:19:26 PM"/>
+        <attribute name="created" value="TklUUk87SlVOSUFUSTsyMDI1LTExLTE4OzA4OjI4OjU1IFBNOzIyMjA="/>
+        <attribute name="edited" value="TklUUk87SlVOSUFUSTsyMDI1LTExLTE4OzA5OjE5OjI2IFBNOzQ7MjMzMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="taskList" type="Integer" array="True" size="10"/>
+            <declare name="taskCount" type="Integer" array="False" size=""/>
+            <declare name="command" type="String" array="False" size=""/>
+            <assign variable="taskCount" expression="0"/>
+            <input variable="command"/>
+            <while expression="command != &quot;---&quot; AND taskCount &lt; 10"/>
+        </body>
+    </function>
+    <function name="addTask" type="None" variable="">
+        <parameters>
+            <parameter name="Tugas" type="Integer" array="True"/>
+            <parameter name="Count" type="Integer" array="False"/>
+        </parameters>
+        <body/>
+    </function>
+    <function name="calculatePriority" type="Real" variable="10">
+        <parameters>
+            <parameter name="difficulty" type="Integer" array="False"/>
+            <parameter name="days" type="Integer" array="False"/>
+        </parameters>
+        <body/>
+    </function>
+</flowgorithm>
